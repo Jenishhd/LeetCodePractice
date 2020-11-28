@@ -5,6 +5,7 @@ public class BuySellStocks {
 
     }
 
+    //MY APPROACH
     public static int getMaxProfit(int[] prices) {
         int lowestPrice = prices[0];
         int highestPrice = 0;
@@ -23,5 +24,21 @@ public class BuySellStocks {
         }
         return prices[highestPrice] - prices[lowestPrice];
 
+    }
+
+    //OPTIMIZED METHOD
+    public static int maxProfitOptimized(int prices[]) {
+        int minprice = Integer.MAX_VALUE;
+        int maxprofit = 0;
+
+        for(int i = 0; i < prices.length; i++) {
+            if(prices[i] < minprice) {
+                minprice = prices[i];
+            }
+            else if (prices[i] - minprice > maxprofit) {
+                maxprofit = prices[i] - minprice;
+            }
+        }
+        return maxprofit;
     }
 }
