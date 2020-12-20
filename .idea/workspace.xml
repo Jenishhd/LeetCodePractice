@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62109fb0-8b51-4945-9081-82b00b13506f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCodePractice/Arrays/ArrayProductExceptSelf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MaxSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/ArrayProductExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/ArrayProductExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/MaxProductSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,13 +99,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,6 +132,7 @@
       <workItem from="1606531261541" duration="10625000" />
       <workItem from="1606976753454" duration="8000" />
       <workItem from="1608341912170" duration="10283000" />
+      <workItem from="1608420737442" duration="3539000" />
     </task>
     <servers />
   </component>
@@ -147,6 +149,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1606531277347">
