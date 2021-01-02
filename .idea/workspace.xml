@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62109fb0-8b51-4945-9081-82b00b13506f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MaxProductSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/minRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP/fibMemoization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +53,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.MaxSubArray">
+  <component name="RunManager" selected="Application.minRotatedSortedArray">
     <configuration name="ArrayProductExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.ArrayProductExceptSelf" />
       <module name="LeetCodePractice" />
@@ -79,15 +80,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.TwoSum" />
+    <configuration name="containsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.containsDuplicate" />
       <module name="LeetCodePractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="containsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.containsDuplicate" />
+    <configuration name="fibMemoization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.fibMemoization" />
+      <module name="LeetCodePractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="minRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.minRotatedSortedArray" />
       <module name="LeetCodePractice" />
       <extension name="coverage">
         <pattern>
@@ -114,10 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.minRotatedSortedArray" />
+        <item itemvalue="Application.fibMemoization" />
         <item itemvalue="Application.MaxSubArray" />
         <item itemvalue="Application.ArrayProductExceptSelf" />
         <item itemvalue="Application.containsDuplicate" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +154,8 @@
       <workItem from="1606976753454" duration="8000" />
       <workItem from="1608341912170" duration="10283000" />
       <workItem from="1608420737442" duration="3539000" />
+      <workItem from="1608798314224" duration="1404000" />
+      <workItem from="1609536307535" duration="5281000" />
     </task>
     <servers />
   </component>
@@ -156,25 +179,29 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050/1920.35.1680.1020@0.0.1920.1050" timestamp="1606531277347" />
-    <state width="1340" height="285" key="GridCell.Tab.0.bottom" timestamp="1608358945336">
+    <state width="1877" height="197" key="GridCell.Tab.0.bottom" timestamp="1609565225506">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.27.1680.1020@0.0.1920.1050" timestamp="1608358945336" />
+    <state width="942" height="197" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.27.1680.1020@-1680.27.1680.1020" timestamp="1609560748982" />
+    <state width="1877" height="197" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1680.27.1680.1020@0.0.1920.1050" timestamp="1609565225506" />
     <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.35.1680.1020@0.0.1920.1050" timestamp="1606677677620" />
-    <state width="1340" height="285" key="GridCell.Tab.0.center" timestamp="1608358945336">
+    <state width="1877" height="197" key="GridCell.Tab.0.center" timestamp="1609565225506">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.27.1680.1020@0.0.1920.1050" timestamp="1608358945336" />
+    <state width="942" height="197" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.27.1680.1020@-1680.27.1680.1020" timestamp="1609560748981" />
+    <state width="1877" height="197" key="GridCell.Tab.0.center/0.0.1920.1050/-1680.27.1680.1020@0.0.1920.1050" timestamp="1609565225506" />
     <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.35.1680.1020@0.0.1920.1050" timestamp="1606677677620" />
-    <state width="1340" height="285" key="GridCell.Tab.0.left" timestamp="1608358945336">
+    <state width="1877" height="197" key="GridCell.Tab.0.left" timestamp="1609565225506">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.27.1680.1020@0.0.1920.1050" timestamp="1608358945336" />
+    <state width="942" height="197" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.27.1680.1020@-1680.27.1680.1020" timestamp="1609560748981" />
+    <state width="1877" height="197" key="GridCell.Tab.0.left/0.0.1920.1050/-1680.27.1680.1020@0.0.1920.1050" timestamp="1609565225506" />
     <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.35.1680.1020@0.0.1920.1050" timestamp="1606677677619" />
-    <state width="1340" height="285" key="GridCell.Tab.0.right" timestamp="1608358945336">
+    <state width="1877" height="197" key="GridCell.Tab.0.right" timestamp="1609565225506">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1340" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.27.1680.1020@0.0.1920.1050" timestamp="1608358945336" />
+    <state width="942" height="197" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.27.1680.1020@-1680.27.1680.1020" timestamp="1609560748982" />
+    <state width="1877" height="197" key="GridCell.Tab.0.right/0.0.1920.1050/-1680.27.1680.1020@0.0.1920.1050" timestamp="1609565225506" />
     <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.35.1680.1020@0.0.1920.1050" timestamp="1606677677620" />
     <state x="623" y="227" key="search.everywhere.popup" timestamp="1606533499416">
       <screen x="0" y="0" width="1920" height="1050" />
