@@ -23,7 +23,7 @@ public class minRotatedSortedArray {
         if(nums[0] < nums[nums.length - 1]) {return nums[0];}
 
 
-        int low = nums[0];
+        int low = 0;
         int high = nums.length - 1;
 
         while(true) {
