@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62109fb0-8b51-4945-9081-82b00b13506f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Intel/IsomorphicString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Intel/ValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +52,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager" selected="Application.ThreeSum">
     <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -144,6 +149,10 @@
       <workItem from="1609899514612" duration="5489000" />
       <workItem from="1610161176050" duration="835000" />
       <workItem from="1610164588201" duration="235000" />
+      <workItem from="1614024058835" duration="3135000" />
+      <workItem from="1614044907099" duration="1270000" />
+      <workItem from="1614059731952" duration="1242000" />
+      <workItem from="1614118664672" duration="571000" />
     </task>
     <servers />
   </component>
@@ -163,6 +172,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="99" key="#Project_Structure" timestamp="1614024818405">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="440" y="99" key="#Project_Structure/0.0.1920.1050/-1680.27.1680.1020@0.0.1920.1050" timestamp="1614024818405" />
     <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1606531277347">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
