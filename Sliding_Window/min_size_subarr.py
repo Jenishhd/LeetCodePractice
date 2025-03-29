@@ -20,8 +20,8 @@ def minSubArrayLen(target, nums):
                 d[target-sum] -= 1
                 if sum == target:
                     counter += 1
-            r += 1
-        l += 1
+            l += 1
+        r += 1
         ans = min(ans, counter)
         counter = 0
         sum = 0
